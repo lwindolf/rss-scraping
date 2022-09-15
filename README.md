@@ -16,6 +16,7 @@ This is a list of simple scripts you can run yourself locally (or in the cloud).
 |-------------------|-------|------------|---------|----------------------------------------------------|
 | [sjehuda/html2atom](https://github.com/sjehuda/html2atom) | HTML | XPath | Atom | Python Script |
 | [h43z/rssify](https://github.com/h43z/rssify) | HTML | CSS selectors | RSS | Python script |
+| [Tweeper](https://git.ao2.it/tweeper.git/blob/HEAD:/README) | Twitter | auto | RSS | PHP script |
 | [MitchellMcKenna/twitter-rss-google-apps-script](https://github.com/MitchellMcKenna/twitter-rss-google-apps-script) | Twitter | auto | RSS | Google apps hosted script for Twitter API callback |
 
 ## Commercial 3rd party scraper services
