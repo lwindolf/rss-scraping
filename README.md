@@ -22,11 +22,11 @@ While this repos hosts a few scripts and examples to build upon, it mostly provi
 
 ## Commercial 3rd party scraper services
 
-| Tool              | Input | Output | Details                                            |
-|-------------------|-------|--------|----------------------------------------------------|
-| [nitter.com](https://nitter.com) | Twitter | RSS | No sign up. Access RSS via `https://nitter.net/<twitter username>/rss` |
-| [feed43.com](https://feed43.com) | Any website | RSS | No sign up required. Free for non-commercial use. Allows to specify patterns to extract |
-| [fivefilters.org](http://createfeed.fivefilters.org/index.php) | Any website | RSS | No sign up required. Allows to specify CSS selectors. Returns only 5 most recent items per feed |
-| [RSS.app](https://rss.app) | All social networks | RSS | Requires sign up | 
-| [fetchrss](http://fetchrss.com/) | Any website | RSS | Requires sign up. 4 feeds are free |
+| Tool              | Input | Extraction | Output | Details                                            |
+|-------------------|-------|------------|--------|----------------------------------------------------|
+| [nitter.com](https://nitter.com) | Twitter | auto | RSS | No sign up. RSS link syntax `https://nitter.net/<twitter username>/rss` |
+| [feed43.com](https://feed43.com) | Any website | string pattern | RSS | No sign up required. Free for non-commercial use. Allows to specify patterns to extract |
+| [fivefilters.org](http://createfeed.fivefilters.org/index.php) | Any website | CSS selectors | RSS | No sign up required. Returns only 5 most recent items per feed |
+| [RSS.app](https://rss.app) | All social networks | auto | RSS | Requires sign up. | 
+| [fetchrss](http://fetchrss.com/) | Any website | visual assistant | RSS | Requires sign up. 4 feeds are free |
 
