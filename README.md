@@ -25,5 +25,7 @@ While this repos hosts a few scripts and examples to build upon, it mostly provi
 | Tool              | Input | Output | Details                                            |
 |-------------------|-------|--------|----------------------------------------------------|
 | [nitter.com](https://nitter.com) | Twitter | RSS | No sign up. Access RSS via `https://nitter.net/<twitter username>/rss` |
+| [feed43.com](https://feed43.com) | Any website | RSS | No sign up required. Free for non-commercial use. Allows to specify patterns to extract |
 | [RSS.app](https://rss.app) | All social networks | RSS | Requires sign up | 
 | [fetchrss](http://fetchrss.com/) | Any website | RSS | Requires sign up. 4 feeds are free |
+
