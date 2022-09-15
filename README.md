@@ -8,7 +8,7 @@ This repository serves as a starting point for RSS/Atom feed scraping solutions:
 
 While this repos hosts a few scripts and examples to build upon, it mostly provides links to existing solutions.
 
-**This list focusess on simple (almost) zero-setup solutions!**
+**This list does focus on simple (almost) zero-setup solutions!**
 
 ## Examples
 
