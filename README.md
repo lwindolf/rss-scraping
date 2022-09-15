@@ -2,11 +2,13 @@
 
 This repository serves as a starting point for RSS/Atom feed scraping solutions:
 
-1.) Scripts fixing broken feeds
-2.) Scripts scraping websites without feeds
-3.) Scripts augmenting feeds without good content
+1. Scripts fixing broken feeds
+2. Scripts scraping websites without feeds
+3. Scripts augmenting feeds without good content
 
 While this repos hosts a few scripts and examples to build upon, it mostly provides links to existing solutions.
+
+**This list focusess on simple (almost) zero-setup solutions!**
 
 ## Examples
 
@@ -14,7 +16,8 @@ While this repos hosts a few scripts and examples to build upon, it mostly provi
 
 | Tool              | Input | Output  | Type | Details                                            |
 |-------------------|-------|---------|------|----------------------------------------------------|
-| [sjehuda/html2atom](https://github.com/sjehuda/html2atom) | HTML | Atom | Script |Allows to specify XPath selectors to extract content |
+| [sjehuda/html2atom](https://github.com/sjehuda/html2atom) | HTML | Atom | Python Script |Allows to specify XPath selectors to extract content |
+| [h43z/rssify](https://github.com/h43z/rssify) | HTML | RSS | Python script | Allows to specify CSS selectors to extract content |
 | [MitchellMcKenna/twitter-rss-google-apps-script](https://github.com/MitchellMcKenna/twitter-rss-google-apps-script) | Twitter | RSS | Hosted | Google apps hosted script for Twitter API callback |
 
 ## Commercial 3rd party scraper services
