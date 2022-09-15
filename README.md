@@ -28,13 +28,13 @@ These are 3rd party services usually provided by companies that offer subscripti
 
 When using free plans consider your privacy!
 
-| Tool              | Input | Extraction | Output | Details                                            |
-|-------------------|-------|------------|--------|----------------------------------------------------|
-| [rsshub.app](https://rsshub.app) | All social networks | auto | RSS | No sign up. Simple link syntax e.g. `https://rsshub.app/<service>/user/<user name>` |
-| [nitter.com](https://nitter.com) | Twitter | auto | RSS | No sign up. Simple link syntax `https://nitter.net/<twitter username>/rss` |
-| [feed43.com](https://feed43.com) | Any website | string pattern | RSS | No sign up required. Free for non-commercial use. Allows to specify patterns to extract |
-| [fivefilters.org](http://createfeed.fivefilters.org/index.php) | Any website | CSS selectors | RSS | No sign up required. Returns only 5 most recent items per feed |
-| [RSS.app](https://rss.app) | All social networks | auto | RSS | Requires sign up. | 
-| [fetchrss](http://fetchrss.com/) | Any website | visual assistant | RSS | Requires sign up. 4 feeds are free |
-| [Google Search](https://www.labnol.org/internet/rss-feeds-for-google-searches/19944/) | Google Search | API Query | RSS/Atom | Sign up required, 100 requests per day, API key necessary |
+| Tool              | Input | Extraction | Output | Sign Up | Details                                            |
+|-------------------|-------|------------|--------|---------|----------------------------------------------------|
+| [rsshub.app](https://rsshub.app) | All social networks | auto | RSS | no | Simple link syntax e.g. `https://rsshub.app/<service>/user/<user name>` |
+| [nitter.com](https://nitter.com) | Twitter | auto | RSS | no | Simple link syntax `https://nitter.net/<twitter username>/rss` |
+| [feed43.com](https://feed43.com) | Any website | string pattern | RSS | no | Free for non-commercial use. Allows to specify patterns to extract |
+| [fivefilters.org](http://createfeed.fivefilters.org/index.php) | Any website | CSS selectors | RSS | no | Returns only 5 most recent items per feed |
+| [RSS.app](https://rss.app) | All social networks | auto | RSS | yes | | 
+| [fetchrss](http://fetchrss.com/) | Any website | visual assistant | RSS | yes | 4 feeds are free |
+| [Google Search](https://www.labnol.org/internet/rss-feeds-for-google-searches/19944/) | Google Search | API Query | RSS/Atom | yes | 100 requests per day, API key necessary |
 
