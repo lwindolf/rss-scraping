@@ -8,7 +8,7 @@ This repository serves as a guide on RSS/Atom feed scraping solutions. While thi
 
 The `examples` folder provides a few scripts that illustrate how to write a scraper in different scripting languages. It does focus on languages that can be run out of the box on all Linux distributions so you can use those scrapers on with feed readers that support running scripts as sources like [Liferea](https://github.com/lwindolf/liferea) and [SnowNews](https://github.com/msharov/snownews).
 
-## 3rd party OSS scrapers
+## OSS scraping scripts
 
 This is a list of simple scripts you can run locally. You can use them with any desktop feed reader that can run local commands.
 
@@ -18,7 +18,7 @@ This is a list of simple scripts you can run locally. You can use them with any 
 | [h43z/rssify](https://github.com/h43z/rssify) | HTML | CSS selectors | RSS | Python script |
 | [Tweeper](https://git.ao2.it/tweeper.git/blob/HEAD:/README) | Twitter | auto | RSS | PHP script |
 
-## Commercial 3rd party scraper services
+## Commercial scraping solutions
 
 These are 3rd party services usually provided by companies that offer subscriptions. List is roughly ordered by usefulness and simplicity of the services. When using free plans consider your privacy!
 
