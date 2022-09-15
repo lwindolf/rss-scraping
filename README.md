@@ -14,13 +14,19 @@ While this repos hosts a few scripts and examples to build upon, it mostly provi
 
 ## 3rd party OSS scrapers
 
-| Tool              | Input | Output  | Type | Details                                            |
-|-------------------|-------|---------|------|----------------------------------------------------|
-| [sjehuda/html2atom](https://github.com/sjehuda/html2atom) | HTML | Atom | Python Script |Allows to specify XPath selectors to extract content |
-| [h43z/rssify](https://github.com/h43z/rssify) | HTML | RSS | Python script | Allows to specify CSS selectors to extract content |
-| [MitchellMcKenna/twitter-rss-google-apps-script](https://github.com/MitchellMcKenna/twitter-rss-google-apps-script) | Twitter | RSS | Hosted | Google apps hosted script for Twitter API callback |
+This is a list of simple scripts you can run yourself locally (or in the cloud).
+
+| Tool              | Input | Extraction | Output  | Details                                            |
+|-------------------|-------|------------|---------|----------------------------------------------------|
+| [sjehuda/html2atom](https://github.com/sjehuda/html2atom) | HTML | XPath | Atom | Python Script |
+| [h43z/rssify](https://github.com/h43z/rssify) | HTML | CSS selectors | RSS | Python script |
+| [MitchellMcKenna/twitter-rss-google-apps-script](https://github.com/MitchellMcKenna/twitter-rss-google-apps-script) | Twitter | auto | RSS | Google apps hosted script for Twitter API callback |
 
 ## Commercial 3rd party scraper services
+
+These are 3rd party services usually provided by companies that offer subscriptions.
+
+When using free plans consider your privacy!
 
 | Tool              | Input | Extraction | Output | Details                                            |
 |-------------------|-------|------------|--------|----------------------------------------------------|
@@ -29,4 +35,5 @@ While this repos hosts a few scripts and examples to build upon, it mostly provi
 | [fivefilters.org](http://createfeed.fivefilters.org/index.php) | Any website | CSS selectors | RSS | No sign up required. Returns only 5 most recent items per feed |
 | [RSS.app](https://rss.app) | All social networks | auto | RSS | Requires sign up. | 
 | [fetchrss](http://fetchrss.com/) | Any website | visual assistant | RSS | Requires sign up. 4 feeds are free |
+| [Google Search](https://www.labnol.org/internet/rss-feeds-for-google-searches/19944/) | Google Search | API Query | RSS/Atom | Sign up required, 100 requests per day, API key necessary |
 
