@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
                 xmlns:content="http://purl.org/rss/1.0/modules/content/"
-   version="1.0">
+                version="1.0">
+                
+<!--
+
+This XSLT stylesheet can be used to extract content from any HTML5 page.
+
+To run it manually:
+
+    xlstproc \-\-html \-\-novalid html5-scraper.xsl webpage.html >feed.rss
+
+-->
 
 <xsl:template match="article">
 	<xsl:element name="item">
@@ -24,14 +34,20 @@
 
 <xsl:template match="/">
 	<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-		<channel>
-	        <title>Spiegel</title>
-	        <link>https://spiegel.de</link>
-	        <description>Extracted Spiegel News</description>
-
-		<xsl:apply-templates select="//article"/>
+		<xsl:element name="channel">
+			<xsl:element name="title">
+				<xsl:value-of select="/html/head/title"/>
+			</xsl:element>
+			<xsl:element name="description">
+				<xsl:value-of select="/html/head/title"/>
+			</xsl:element>
+			
+			<!-- link is hard as HTML5 <meta> tags cannot be parsed due to missing closing -->
+			<xsl:element name="link">FIXME</xsl:element>
+			
+			<xsl:apply-templates select="//article"/>
 		
-		</channel>
+		</xsl:element>
 	</rss>
 </xsl:template>
 
