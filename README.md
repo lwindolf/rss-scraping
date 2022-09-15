@@ -4,7 +4,7 @@ This repository serves as a guide on RSS/Atom feed scraping solutions. While thi
 
 **This repo does focus on simple (almost) zero-setup solutions!**
 
-## Examples
+## Example scraping scripts
 
 The `examples` folder provides a few scripts that illustrate how to write a scraper in different scripting languages. It does focus on languages that can be run out of the box on all Linux distributions so you can use those scrapers on with feed readers that support running scripts as sources like [Liferea](https://github.com/lwindolf/liferea) and [SnowNews](https://github.com/msharov/snownews).
 
