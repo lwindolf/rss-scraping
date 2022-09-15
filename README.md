@@ -12,6 +12,8 @@ While this repos hosts a few scripts and examples to build upon, it mostly provi
 
 ## Examples
 
+In the `examples` folder provides a few scripts that illustrate how to write a scraper in different scripting languages.
+
 ## 3rd party OSS scrapers
 
 This is a list of simple scripts you can run yourself locally (or in the cloud).
