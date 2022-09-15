@@ -24,14 +24,14 @@ This is a list of simple scripts you can run yourself locally (or in the cloud).
 
 ## Commercial 3rd party scraper services
 
-These are 3rd party services usually provided by companies that offer subscriptions.
+These are 3rd party services usually provided by companies that offer subscriptions. List is roughly ordered by usefulness and simplicity of the services.
 
 When using free plans consider your privacy!
 
 | Tool              | Input | Extraction | Output | Details                                            |
 |-------------------|-------|------------|--------|----------------------------------------------------|
-| [nitter.com](https://nitter.com) | Twitter | auto | RSS | No sign up. Simple link syntax `https://nitter.net/<twitter username>/rss` |
 | [rsshub.app](https://rsshub.app) | All social networks | auto | RSS | No sign up. Simple link syntax e.g. `https://rsshub.app/<service>/user/<user name>` |
+| [nitter.com](https://nitter.com) | Twitter | auto | RSS | No sign up. Simple link syntax `https://nitter.net/<twitter username>/rss` |
 | [feed43.com](https://feed43.com) | Any website | string pattern | RSS | No sign up required. Free for non-commercial use. Allows to specify patterns to extract |
 | [fivefilters.org](http://createfeed.fivefilters.org/index.php) | Any website | CSS selectors | RSS | No sign up required. Returns only 5 most recent items per feed |
 | [RSS.app](https://rss.app) | All social networks | auto | RSS | Requires sign up. | 
