@@ -6,18 +6,17 @@ This repository serves as a guide on RSS/Atom feed scraping solutions. While thi
 
 ## Examples
 
-In the `examples` folder provides a few scripts that illustrate how to write a scraper in different scripting languages. It focusses on languages that can be run out of the box on all Linux distributions so you can use those scrapers on with feed readers that support running scripts as sources like [Liferea](https://github.com/lwindolf/liferea) and [SnowNews](https://github.com/msharov/snownews).
+The `examples` folder provides a few scripts that illustrate how to write a scraper in different scripting languages. It does focus on languages that can be run out of the box on all Linux distributions so you can use those scrapers on with feed readers that support running scripts as sources like [Liferea](https://github.com/lwindolf/liferea) and [SnowNews](https://github.com/msharov/snownews).
 
 ## 3rd party OSS scrapers
 
-This is a list of simple scripts you can run yourself locally (or in the cloud).
+This is a list of simple scripts you can run locally. You can use them with any desktop feed reader that can run local commands.
 
 | Tool              | Input | Extraction | Output  | Details                                            |
 |-------------------|-------|------------|---------|----------------------------------------------------|
 | [sjehuda/html2atom](https://github.com/sjehuda/html2atom) | HTML | XPath | Atom | Python Script |
 | [h43z/rssify](https://github.com/h43z/rssify) | HTML | CSS selectors | RSS | Python script |
 | [Tweeper](https://git.ao2.it/tweeper.git/blob/HEAD:/README) | Twitter | auto | RSS | PHP script |
-| [MitchellMcKenna/twitter-rss-google-apps-script](https://github.com/MitchellMcKenna/twitter-rss-google-apps-script) | Twitter | auto | RSS | Google apps hosted script for Twitter API callback |
 
 ## Commercial 3rd party scraper services
 
