@@ -1,14 +1,8 @@
 # RSS website scraping scripts
 
-This repository serves as a starting point for RSS/Atom feed scraping solutions:
+This repository serves as a guide on RSS/Atom feed scraping solutions. While this repos hosts a few scripts and examples to build upon, it mostly provides links to existing solutions. 
 
-1. Scripts fixing broken feeds
-2. Scripts scraping websites without feeds
-3. Scripts augmenting feeds without good content
-
-While this repos hosts a few scripts and examples to build upon, it mostly provides links to existing solutions.
-
-**This list does focus on simple (almost) zero-setup solutions!**
+**This repo does focus on simple (almost) zero-setup solutions!**
 
 ## Examples
 
