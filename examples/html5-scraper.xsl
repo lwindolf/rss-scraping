@@ -9,7 +9,7 @@ This XSLT stylesheet can be used to extract content from any HTML5 page.
 
 To run it manually:
 
-    xlstproc \-\-html \-\-novalid html5-scraper.xsl webpage.html >feed.rss
+    xsltproc \-\-html \-\-novalid html5-scraper.xsl webpage.html >feed.rss
 
 -->
 
