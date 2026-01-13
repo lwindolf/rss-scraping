@@ -14,7 +14,7 @@ This is a list of simple scripts you can run locally. You can use them with any 
 
 | Tool              | Input | Extraction | Output  | Details                                            |
 |-------------------|-------|------------|---------|----------------------------------------------------|
-| [sch/Focus](https://git.xmpp-it.net/sch/Focus/src/branch/main/implementations/focus.py) | HTML | XPath | Atom | Python Script |
+| [sch/Focus](https://git.xmpp-it.net/sch/Focus/src/branch/main/implementations/focus.py) | HTML, JSON, or XML | XPath | Atom | Python Script |
 | [h43z/rssify](https://github.com/h43z/rssify) | HTML | CSS selectors | RSS | Python script |
 | [Tweeper](https://git.ao2.it/tweeper.git/blob/HEAD:/README) | Twitter | auto | RSS | PHP script |
 | [MixCloud](https://gist.github.com/HarHarLinks/db487ed0c1ad6c198cb282ff6d2ffe3b) | HTML | auto | RSS | PHP script |
