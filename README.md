@@ -16,7 +16,6 @@ This is a list of simple scripts you can run locally. You can use them with any 
 |-------------------|-------|------------|---------|----------------------------------------------------|
 | [sch/Focus](https://git.xmpp-it.net/sch/Focus/src/branch/main/implementations/focus.py) | HTML, JSON, or XML | XPath | Atom | Python Script |
 | [h43z/rssify](https://github.com/h43z/rssify) | HTML | CSS selectors | RSS | Python script |
-| [Tweeper](https://git.ao2.it/tweeper.git/blob/HEAD:/README) | Twitter | auto | RSS | PHP script |
 | [MixCloud](https://gist.github.com/HarHarLinks/db487ed0c1ad6c198cb282ff6d2ffe3b) | HTML | auto | RSS | PHP script |
 
 ## Commercial scraping solutions
@@ -26,7 +25,6 @@ These are 3rd party services usually provided by companies that offer subscripti
 | Tool              | Input | Extraction | Output | Sign Up | Details                                            |
 |-------------------|-------|------------|--------|---------|----------------------------------------------------|
 | [rsshub.app](https://rsshub.app) | Many social networks | auto | RSS | no | Simple link syntax e.g. `https://rsshub.app/<service>/user/<user name>` |
-| [nitter.com](https://nitter.com) | Twitter | auto | RSS | no | Simple link syntax `https://nitter.net/<twitter username>/rss` |
 | [feed43.com](https://feed43.com) | Any website | string pattern | RSS | no | Free for non-commercial use. Allows to specify patterns to extract |
 | [fivefilters.org](http://createfeed.fivefilters.org/index.php) | Any website | CSS selectors | RSS | no | Returns only 5 most recent items per feed |
 | [RSS.app](https://rss.app) | Many social networks | auto | RSS | yes | | 
