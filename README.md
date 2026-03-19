@@ -25,7 +25,6 @@ These are 3rd party services usually provided by companies that offer subscripti
 | Tool              | Input | Extraction | Output | Sign Up | Details                                            |
 |-------------------|-------|------------|--------|---------|----------------------------------------------------|
 | [rsshub.app](https://rsshub.app) | Many social networks | auto | RSS | no | Simple link syntax e.g. `https://rsshub.app/<service>/user/<user name>` |
-| [feed43.com](https://feed43.com) | Any website | string pattern | RSS | no | Free for non-commercial use. Allows to specify patterns to extract |
 | [fivefilters.org](http://createfeed.fivefilters.org/index.php) | Any website | CSS selectors | RSS | no | Returns only 5 most recent items per feed |
 | [RSS.app](https://rss.app) | Many social networks | auto | RSS | yes | | 
 | [fetchrss](http://fetchrss.com/) | Any website | visual assistant | RSS | yes | 4 feeds are free |
