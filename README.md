@@ -30,5 +30,6 @@ These are 3rd party services usually provided by companies that offer subscripti
 | [RSS.app](https://rss.app) | Many social networks | auto | RSS | yes | | 
 | [fetchrss](http://fetchrss.com/) | Any website | visual assistant | RSS | yes | 4 feeds are free |
 | [Google Search](https://www.labnol.org/internet/rss-feeds-for-google-searches/19944/) | Google Search | API Query | RSS/Atom | yes | 100 requests per day, API key necessary |
+| [byedoom.com](https://byedoom.com) | Twitter/Facebook | auto | RSS | no | Free for now. Refreshed daily |
 
 If you find a service/link broken or missing please create a PR!
